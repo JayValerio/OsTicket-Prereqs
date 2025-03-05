@@ -36,7 +36,7 @@ In the Azure Portal, search for "Virtual Machines" in the search bar.
 
 Click "Create" > "Azure Virtual Machine".
 
-<h5><blockquote>Configure Basic Settings:</blockquote></h5>
+<h3><blockquote>Configure Basic Settings:</blockquote></h3>
 
 <p>Subscription: Select your Azure subscription.</p>
 <p>Resource Group: Create or use an existing resource group.</p>
