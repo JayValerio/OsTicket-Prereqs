@@ -74,9 +74,18 @@ Download Microsoft Remote Desktop – Get it from the Mac App Store.
 Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, enter the PC’s IP address, and save.
 
 Connect – Select the PC in the app, enter Windows login credentials, and start the session.
-</p>
+
 
 <h4>For Windows:</h4>
+
+Simply press your windows key and type in "Remote Desktop Connection".
+
+Find your VM public IP Address and enter it into the RDC program to find your VM.
+
+Use your windows Log in credentials to log in.
+
+
+</p>
 <br />
 
 <p>
