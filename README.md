@@ -93,7 +93,7 @@ _________
 </p>
 <p>
 Install / Enable IIS in Windows WITH CGI
- - World Wide Web Services -> Application Development Features -> [X] CGI
+  World Wide Web Services -> Application Development Features -> [X] CGI
 
 </p>
 <br />
