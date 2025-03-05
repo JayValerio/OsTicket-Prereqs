@@ -20,21 +20,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>What We Will Do</h2>
 
 - Create Virtual Machine Using Asure
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Launch Virtual Machine using Remote Desktop (Mac/Microsoft)
+- Download required files on Virtual Machine
+- osTicket initial set up
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a Virtual Machine (VM)
+In the Azure Portal, search for "Virtual Machines" in the search bar.
+
+Click "Create" > "Azure Virtual Machine".
+
+Configure Basic Settings:
+
+Subscription: Select your Azure subscription.
+Resource Group: Create or use an existing resource group.
+VM Name: Enter a name for the VM (e.g., osTicket-VM).
+Region: Choose a preferred region.
+Image: Select Ubuntu Server 20.04 LTS (or Windows if preferred).
+Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).
+Administrator Account:
+
+Select SSH public key or password authentication.
+If using SSH, generate or use an existing SSH key.
+Networking:
+
+Under Public inbound ports, select Allow HTTP, HTTPS, and SSH (22).
+Configure additional network settings if required.
+Review & Create:
+
+Click "Review + Create", ensure all configurations are correct, and click "Create".
+Wait for deployment to complete.
 </p>
 <br />
 
