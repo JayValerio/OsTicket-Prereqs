@@ -91,7 +91,7 @@ _________
 <p>
 <h3>Download required files on Virtual Machine</p><h3>
 </p>
-<p>for convenience I provide a file where all required downloads are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</p>
+<h5><p>for convenience I provide a folder where all required downloads are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</p></h5>
 <h5><p>Install / Enable IIS in Windows WITH CGI
   World Wide Web Services -> Application Development Features -> [X] CGI
   
