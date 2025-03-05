@@ -67,7 +67,7 @@ _________
 <h3><blockquote>Launch Virtual Machine using Remote Desktop (Mac/Windows)</blockquote></h3>
 </p>
 <p>
-To set up Remote Desktop Protocol (RDP) on a Mac, follow these steps:
+<h4>To set up Remote Desktop Protocol (RDP) on a Mac, follow these steps:</h4>
 
 Download Microsoft Remote Desktop – Get it from the Mac App Store.
 
