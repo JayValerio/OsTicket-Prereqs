@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-Create a Virtual Machine (VM)<br/>
+<h3>Create a Virtual Machine (VM)</h3><br/>
   
 In the Azure Portal, search for "Virtual Machines" in the search bar.
 
