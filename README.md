@@ -75,6 +75,8 @@ Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, en
 
 Connect – Select the PC in the app, enter Windows login credentials, and start the session.
 </p>
+
+<h4>For Windows:</h4>
 <br />
 
 <p>
