@@ -38,12 +38,13 @@ Click "Create" > "Azure Virtual Machine".
 
 Configure Basic Settings:
 
-Subscription: Select your Azure subscription.
-Resource Group: Create or use an existing resource group.
-VM Name: Enter a name for the VM (e.g., osTicket-VM).
-Region: Choose a preferred region.
-Image: Select Ubuntu Server 20.04 LTS (or Windows if preferred).
-Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).
+<p>Subscription: Select your Azure subscription.</p>
+<p>Resource Group: Create or use an existing resource group.</p>
+<p>VM Name: Enter a name for the VM (e.g., osTicket-VM).</p>
+<p>Region: Choose a preferred region.</p>
+<p>Image: Select Ubuntu Server 20.04 LTS (or Windows if preferred).</p>
+<p>Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).</p>
+
 Administrator Account:
 
 Select SSH public key or password authentication.
