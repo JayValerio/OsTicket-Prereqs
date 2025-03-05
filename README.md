@@ -92,9 +92,9 @@ _________
 <h3>Download required files on Virtual Machine</p><h3>
 </p>
 
-<p>Install / Enable IIS in Windows WITH CGI
+<h5><p>Install / Enable IIS in Windows WITH CGI
   World Wide Web Services -> Application Development Features -> [X] CGI
   
-</p>
+</p></h5>
 </p>
 <br />
