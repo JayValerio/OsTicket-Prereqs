@@ -36,7 +36,7 @@ In the Azure Portal, search for "Virtual Machines" in the search bar.
 
 Click "Create" > "Azure Virtual Machine".
 
-<p margin-left="10px">Configure Basic Settings:</p>
+<p style="margin-left: 20px;">Configure Basic Settings:</p>
 
 <p>Subscription: Select your Azure subscription.</p>
 <p>Resource Group: Create or use an existing resource group.</p>
@@ -67,7 +67,13 @@ _________
 <h3>Launch Virtual Machine using Remote Desktop (Mac/Windows)</h3>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To set up Remote Desktop Protocol (RDP) on a Mac, follow these steps:
+
+Download Microsoft Remote Desktop – Get it from the Mac App Store.
+
+Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, enter the PC’s IP address, and save.
+
+Connect – Select the PC in the app, enter Windows login credentials, and start the session.
 </p>
 <br />
 
