@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>What We Will Do</h2>
 
 - Create Virtual Machine Using Asure
-- Launch Virtual Machine using Remote Desktop (Mac/Microsoft)
+- Launch Virtual Machine using Remote Desktop (Mac/Windows)
 - Download required files on Virtual Machine
 - osTicket initial set up
 
