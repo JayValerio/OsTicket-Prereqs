@@ -59,7 +59,7 @@ Click "Review + Create", ensure all configurations are correct, and click "Creat
 Wait for deployment to complete.
 </p>
 <br />
-
+_________
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
