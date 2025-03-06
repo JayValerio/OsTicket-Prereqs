@@ -92,9 +92,9 @@ _________
 <h3>Download required files on Virtual Machine</p><h3>
 </p>
 <p><h5>for convenience I provide a folder where all required downloads are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</h5></p>
-<h5><p>Install / Enable IIS in Windows WITH CGI
+<p>Install / Enable IIS in Windows WITH CGI
   World Wide Web Services -> Application Development Features -> [X] CGI
   
-</p></h5>
+</p>
 </p>
 <br />
