@@ -270,3 +270,13 @@ Create a database called “osTicket”
 <p>Once all steps are completed, on your congratulations page you will see 4 links. We will be using "http://localhost/osTicket/" For users to submit Tickets and "http://localhost/osicket/scp/" to set up osTicket as an Administratior. </p>
 
 ![image](https://github.com/user-attachments/assets/12f8407c-2063-49cd-bf85-dab13e30327e)
+
+<p><h3>Administrators</h3></p>
+
+![image](https://github.com/user-attachments/assets/9a2f0939-20ee-4838-9136-886618fc90a2)
+
+
+<p><h3>User</h3></p>
+
+![image](https://github.com/user-attachments/assets/107233bb-cdee-42d1-abb9-448da3dc0714)
+
