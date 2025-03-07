@@ -79,6 +79,8 @@ Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, en
 
 Connect – Select the VM in the app, enter login credentials, and start the session.
 
+![image](https://github.com/user-attachments/assets/36eb4b88-dce7-4eff-a4dc-1177228b9a66)
+
 
 <h4>For Windows:</h4>
 
