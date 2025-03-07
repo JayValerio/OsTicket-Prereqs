@@ -99,10 +99,25 @@ _________
 <h3>Download required files on Virtual Machine</p><h3>
 </p>
 <p><h5>for convenience I provide a folder where all required downloads are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</h5></p>
+
+![image](https://github.com/user-attachments/assets/c7dd686a-4036-4c8d-952f-d46cf00da2dd)
+
+  
 <p>Install / Enable IIS in Windows WITH CGI
   World Wide Web Services -> Application Development Features -> [X] CGI</p>
+      <p>- In our VM go to control panel - programs</p>
+      <p>- Under programs and Features select "Turn Windows Features on and off".</p>
+      <p>- Find "Internet Information Services" and check that box</p>
+      
 
-  <p>nstall PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
+![image](https://github.com/user-attachments/assets/b5606838-a32c-466c-9aec-47c158ed03f9)
+
+<p>- For "CGI", under IIS, drop down "World Wide Web Services", then "Application Development Features" and check the CGI box and click OK</p>
+
+![image](https://github.com/user-attachments/assets/dc40d5fb-79a5-4237-9b8b-0d4f649d09e4)
+
+
+  <p>install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
 
 <p>install the Rewrite Module (rewrite_amd64_en-US.msi)</p>
 
