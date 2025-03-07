@@ -30,29 +30,36 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-<h3>Create a Virtual Machine (VM) Using Azure</h3><br/>
+  <h3>Create a Virtual Machine (VM) Using Azure</h3><br/>
+    
+  In the Azure Portal, search for "Virtual Machines" in the search bar.
+  ![image](https://github.com/user-attachments/assets/c43ca67e-46d1-4d7d-95fb-a77a2e5b444e)
   
-In the Azure Portal, search for "Virtual Machines" in the search bar.
-![image](https://github.com/user-attachments/assets/c43ca67e-46d1-4d7d-95fb-a77a2e5b444e)
-
-
-Click "Create" > "Azure Virtual Machine".
-
-![image](https://github.com/user-attachments/assets/85c36039-bb99-49ad-baa7-c42397a032af)
-
-<h3><blockquote>Configure Basic Settings for VM:</blockquote></h3>
-
-<p>Subscription: Select your Azure subscription.</p>
-<p>Resource Group: Create or use an existing resource group.</p>
-<p>VM Name: Enter a name for the VM (e.g., osTicket-VM).</p>
-<p>Region: Choose a preferred region.</p>
-<p>Image: Select Windows 10 pro, version 22H2 - x64 Gen2 (this is the image used as of 03/2025).</p>
-<p>Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).</p>
-<p>Administrator Account: Select your own username and password (for this lab that will be User:labuser Pass:osTicketPassword1!)</p>
+  
+  Click "Create" > "Azure Virtual Machine".
+  
+  ![image](https://github.com/user-attachments/assets/85c36039-bb99-49ad-baa7-c42397a032af)
+  
+  <h3><blockquote>Configure Basic Settings for VM:</blockquote></h3>
+  
+  <p>Subscription: Select your Azure subscription.</p>
+  <p>Resource Group: Create or use an existing resource group.</p>
+  <p>VM Name: Enter a name for the VM (e.g., osTicket-VM).</p>
+  <p>Region: Choose a preferred region.</p>
+  <p>Image: Select Windows 10 pro, version 22H2 - x64 Gen2 (this is the image used as of 03/2025).</p>
+  <p>Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).</p>
+  <p>Administrator Account: Select your own username and password (for this lab that will be <br />
+    <br />
+    User:  labuser <br />
+    <br />
+    Pass:  osTicketPassword1!)<br />
+</p>
 <p>Licensing: Make sure to check this box!</p>
 
-![image](https://github.com/user-attachments/assets/134a08f3-f5f6-4e71-8686-0e8585b6fa1d)
+![image](https://github.com/user-attachments/assets/68801898-4cab-4ff4-8a84-c4573492adec) , ![image](https://github.com/user-attachments/assets/d3495904-36f8-43a7-89b4-54e2f64da57b)
 
+
+<p>Hit Review and Create, Allow Azure to complete VM creation. You will get a notification.</p>
 </p>
 <br />
 _________
@@ -98,7 +105,7 @@ _________
 <p>
 <h3>Download required files on Virtual Machine</p><h3>
 </p>
-<p><h5>for convenience I provide a folder where all required downloads are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</h5></p>
+<p><h5>for convenience I provide a folder where all required applications are kept together: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD</h5></p>
 
 ![image](https://github.com/user-attachments/assets/c7dd686a-4036-4c8d-952f-d46cf00da2dd)
 
@@ -116,7 +123,7 @@ _________
 
 ![image](https://github.com/user-attachments/assets/dc40d5fb-79a5-4237-9b8b-0d4f649d09e4)
 
-<h4>(From here on we can use the installs in our folder)</h4>
+<h4>(From here on we can use the applications in our folder)</h4>
 
 ![image](https://github.com/user-attachments/assets/7149eb44-9083-4f4f-9e0d-29dbf0177309)
 
@@ -139,7 +146,7 @@ Launch Configuration Wizard (after install) -><br />
 Standard Configuration -><br />
 Username: root<br />
 Password: root<br />
-(User & Pass are the same for simplicity in this project, not recommended for real world application.)
+(User & Pass are the same for simplicity in this example, not recommended for real world application.)
 </p>
 
 <p>Open IIS as an Admin
@@ -149,7 +156,8 @@ Password: root<br />
 
 Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
 
-![image](https://github.com/user-attachments/assets/ac6a7b40-7476-4b33-b44f-98b1325b7321)
+![image](https://github.com/user-attachments/assets/7deac6e6-31be-4752-9e73-b4aa4a4bbc9d)
+
 
 
 Reload IIS (Open IIS, Stop and Start the server)
@@ -168,7 +176,7 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”</p>
 On the right, click “Browse *:80”
 </p>
 
-![image](https://github.com/user-attachments/assets/e44de7df-cce5-4ebf-bd1e-af127715bd77)
+![image](https://github.com/user-attachments/assets/882ed221-8249-46d6-80e3-0837454540a5)
 
 
 <p>
@@ -182,7 +190,8 @@ On the right, click “Browse *:80”
 <p>Refresh the osTicket site in your browser, observe the changes</p>
 </p>
 
-![image](https://github.com/user-attachments/assets/d78c15cc-90ef-4fba-bf3a-9ccebc94071c)
+![image](https://github.com/user-attachments/assets/416ce915-8ce7-4695-8e88-dd378cbd02f6)
+
 
 
 <p>Rename: ost-config.php
@@ -193,12 +202,14 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <p>Assign Permissions: ost-config.php</p>
 <p>Disable inheritance -> Remove All</p>
 
-![image](https://github.com/user-attachments/assets/aebfa1e5-ba67-4960-970c-d8e3e1c4c80b)
+![image](https://github.com/user-attachments/assets/02d43351-2d27-4c50-97a5-ade6ed26da93)
+
 
   
-<p>New Permissions -> Everyone -> All(not recommended to give everyone permissions in real use cases)</p>
+<p>New Permissions -> Everyone -> Check the "Full Control" box (not recommended to give everyone permissions in real use cases)</p>
 
-![image](https://github.com/user-attachments/assets/4484d31f-bb0f-4c70-afa4-be72804810fd)
+![image](https://github.com/user-attachments/assets/faf0c31c-544c-49a5-996f-1a1555620fe6)
+
 
 
 </p>
@@ -208,10 +219,20 @@ Name Helpdesk
 Default email (receives email from customers)
 </p>
 
-<p>From the “osTicket-Installation-Files” folder, install HeidiSQL.
+![image](https://github.com/user-attachments/assets/ea706f67-2053-4605-889e-3953f1c0cd67)
+
+
+<p>
+  <p>From the “osTicket-Installation-Files” folder, install HeidiSQL.</p>
+  
+  ![image](https://github.com/user-attachments/assets/ead45e41-b916-4576-aed1-7edb616ada66)
+
 Open Heidi SQL
 Create a new session, root/root
 Connect to the session
+
+![image](https://github.com/user-attachments/assets/6ac7709b-2790-4f69-900f-cde691d2fbe2)
+
 Create a database called “osTicket”
 </p>
 
