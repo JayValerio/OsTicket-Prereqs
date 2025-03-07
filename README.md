@@ -171,24 +171,36 @@ On the right, click “Browse *:80”
 ![image](https://github.com/user-attachments/assets/e44de7df-cce5-4ebf-bd1e-af127715bd77)
 
 
-<p>Note that some extensions are not enabled
-Go back to IIS, sites -> Default -> osTicket
-Double-click PHP Manager
-Click “Enable or disable an extension”
-Enable: php_imap.dll
-Enable: php_intl.dll
-Enable: php_opcache.dll
-Refresh the osTicket site in your browser, observe the changes
+<p>
+  <p>Note that some extensions are not enabled</p>
+<p>Go back to IIS, sites -> Default -> osTicket</p>
+<p>Double-click PHP Manager</p>
+<p>Click “Enable or disable an extension”</p>
+<p>Enable: php_imap.dll</p>
+<p>Enable: php_intl.dll</p>
+<p>Enable: php_opcache.dll</p>
+<p>Refresh the osTicket site in your browser, observe the changes</p>
 </p>
+
+![image](https://github.com/user-attachments/assets/d78c15cc-90ef-4fba-bf3a-9ccebc94071c)
+
 
 <p>Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 
-<p>Assign Permissions: ost-config.php
-Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
+<p>Assign Permissions: ost-config.php</p>
+<p>Disable inheritance -> Remove All</p>
+
+![image](https://github.com/user-attachments/assets/aebfa1e5-ba67-4960-970c-d8e3e1c4c80b)
+
+  
+<p>New Permissions -> Everyone -> All(not recommended to give everyone permissions in real use cases)</p>
+
+![image](https://github.com/user-attachments/assets/4484d31f-bb0f-4c70-afa4-be72804810fd)
+
+
 </p>
 
 <p>Continue Setting up osTicket in the browser (click Continue)
