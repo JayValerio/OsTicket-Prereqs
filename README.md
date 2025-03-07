@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   ![image](https://github.com/user-attachments/assets/85c36039-bb99-49ad-baa7-c42397a032af)
   
-  <h3><blockquote>Configure Basic Settings for VM:</blockquote></h3>
+  <h3>Configure Basic Settings for VM:</h3>
   
   <p>Subscription: Select your Azure subscription.</p>
   <p>Resource Group: Create or use an existing resource group.</p>
