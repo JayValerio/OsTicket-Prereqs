@@ -87,7 +87,8 @@ Find your VM public IP Address and enter it into the RDC program to find your VM
 
 Use your windows Log in credentials to log in.
 
-![image](https://github.com/user-attachments/assets/2d8bdcfd-7916-44ff-8f3e-c583422abd5c)
+![image](https://github.com/user-attachments/assets/496b3397-3db3-43cf-be75-787c10d0ee61)
+
 
 |
 
@@ -110,8 +111,8 @@ _________
 ![image](https://github.com/user-attachments/assets/c7dd686a-4036-4c8d-952f-d46cf00da2dd)
 
   
-<p>Install / Enable IIS in Windows WITH CGI
-  World Wide Web Services -> Application Development Features -> [X] CGI</p>
+<p><h4>Install / Enable IIS in Windows WITH CGI
+  World Wide Web Services -> Application Development Features -> [X] CGI</h4></p>
       <p>- In our VM go to control panel - programs</p>
       <p>- Under programs and Features select "Turn Windows Features on and off".</p>
       <p>- Find "Internet Information Services" and check that box</p>
@@ -163,9 +164,17 @@ Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
 Reload IIS (Open IIS, Stop and Start the server)
 </p>
 
-<p>Install osTicket v1.15.8
-From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
-Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”</p>
+<p>
+  Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder,
+</p>
+<p>
+  unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”,
+</p>
+<p> 
+  Rename “upload” to “osTicket”
+</p>
 
 ![image](https://github.com/user-attachments/assets/cd501a0c-e16b-455a-9500-bd6d0bb6c2be)
 
@@ -219,8 +228,8 @@ Name Helpdesk
 Default email (receives email from customers)
 </p>
 
-![image](https://github.com/user-attachments/assets/ea706f67-2053-4605-889e-3953f1c0cd67)
 
+![image](https://github.com/user-attachments/assets/fc35f09e-5c93-4bb7-8b8f-6cd88f928b39)
 
 <p>
   <p>From the “osTicket-Installation-Files” folder, install HeidiSQL.</p>
@@ -236,15 +245,25 @@ Connect to the session
 Create a database called “osTicket”
 </p>
 
-<p>Continue Setting up osTicket in the browser
-MySQL Database: osTicket
-MySQL Username: root
-MySQL Password: root
-Click “Install Now!”
-</p>
+![image](https://github.com/user-attachments/assets/ad9ff958-e694-42f6-8195-480a985968b5)
+<p>
+<p><h4>Continue Setting up osTicket in the browser</h4></p>
+<p>cMySQL Database: osTicket</p>
+<p>MySQL Username: root</p>
+<p>MySQL Password: root</p>
+<p>Click “Install Now!”</p>
 
-<p></p>
+![image](https://github.com/user-attachments/assets/7aaafd86-65e8-4eb8-8261-6d6f9e98f878)
 
-
-</p>
 <br />
+
+<p>Once everything is installed continue to the next steps.</p>
+
+![image](https://github.com/user-attachments/assets/89104b82-7a68-402d-8a62-e434883112a1)
+
+<p>You can check back on HeidiSQL, refresh the database and observe changes.</p>
+
+![image](https://github.com/user-attachments/assets/4b147a61-8b26-4af7-8933-265ba88305a5)
+
+![image](https://github.com/user-attachments/assets/7ed57873-c9ae-4cd5-9c7e-65ab14b0fb53)
+
