@@ -116,6 +116,9 @@ _________
 
 ![image](https://github.com/user-attachments/assets/dc40d5fb-79a5-4237-9b8b-0d4f649d09e4)
 
+<h4>(From here on we can use the installs in our folder)</h4>
+
+![image](https://github.com/user-attachments/assets/7149eb44-9083-4f4f-9e0d-29dbf0177309)
 
   <p>install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
 
@@ -123,21 +126,31 @@ _________
 
 <p>Create the directory C:\PHP</p>
 
+![image](https://github.com/user-attachments/assets/459518f4-3b08-4178-bfad-a2cb79063916)
+
+
 <p> unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder</p>
 
 <p> install VC_redist.x86.exe.</p>
 
 <p> install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Username: root
-Password: root
+Typical Setup -><br />
+Launch Configuration Wizard (after install) -><br />
+Standard Configuration -><br />
+Username: root<br />
+Password: root<br />
+(User & Pass are the same for simplicity in this project, not recommended for real world application.)
 </p>
 
 <p>Open IIS as an Admin
 
+![image](https://github.com/user-attachments/assets/c5e37e6d-af4b-4292-bb1d-f2d671e8df6d)
+
+
 Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+![image](https://github.com/user-attachments/assets/ac6a7b40-7476-4b33-b44f-98b1325b7321)
+
 
 Reload IIS (Open IIS, Stop and Start the server)
 </p>
@@ -146,11 +159,17 @@ Reload IIS (Open IIS, Stop and Start the server)
 From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”</p>
 
+![image](https://github.com/user-attachments/assets/cd501a0c-e16b-455a-9500-bd6d0bb6c2be)
+
+
 <p>Reload IIS (Open IIS, Stop and Start the server)</p>
 
 <p>Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 </p>
+
+![image](https://github.com/user-attachments/assets/e44de7df-cce5-4ebf-bd1e-af127715bd77)
+
 
 <p>Note that some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
