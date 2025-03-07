@@ -24,38 +24,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create Virtual Machine Using Asure
 - Launch Virtual Machine using Remote Desktop (Mac/Windows)
 - Download required files on Virtual Machine
-- osTicket initial set up
+- Set up osTicket
 
 <h2>Installation Steps</h2>
+
 
 <p>
 <h3>Create a Virtual Machine (VM) Using Azure</h3><br/>
   
 In the Azure Portal, search for "Virtual Machines" in the search bar.
+![image](https://github.com/user-attachments/assets/c43ca67e-46d1-4d7d-95fb-a77a2e5b444e)
+
 
 Click "Create" > "Azure Virtual Machine".
 
-<h3><blockquote>Configure Basic Settings:</blockquote></h3>
+![image](https://github.com/user-attachments/assets/85c36039-bb99-49ad-baa7-c42397a032af)
+
+<h3><blockquote>Configure Basic Settings for VM:</blockquote></h3>
 
 <p>Subscription: Select your Azure subscription.</p>
 <p>Resource Group: Create or use an existing resource group.</p>
 <p>VM Name: Enter a name for the VM (e.g., osTicket-VM).</p>
 <p>Region: Choose a preferred region.</p>
-<p>Image: Select Ubuntu Server 20.04 LTS (or Windows if preferred).</p>
+<p>Image: Select Windows 10 pro, version 22H2 - x64 Gen2 (this is the image used as of 03/2025).</p>
 <p>Size: Choose a VM size (at least 2 vCPUs, 4GB RAM for osTicket).</p>
+<p>Administrator Account: Select your own username and password (for this lab that will be User:labuser Pass:osTicketPassword1!)</p>
+<p>Licensing: Make sure to check this box!</p>
 
-Administrator Account:
+![image](https://github.com/user-attachments/assets/134a08f3-f5f6-4e71-8686-0e8585b6fa1d)
 
-Select SSH public key or password authentication.
-If using SSH, generate or use an existing SSH key.
-Networking:
-
-Under Public inbound ports, select Allow HTTP, HTTPS, and SSH (22).
-Configure additional network settings if required.
-Review & Create:
-
-Click "Review + Create", ensure all configurations are correct, and click "Create".
-Wait for deployment to complete.
 </p>
 <br />
 _________
@@ -68,11 +65,11 @@ _________
 <p>
 <h4>To set up Remote Desktop Protocol (RDP) on a Mac, follow these steps:</h4>
 
-Download Microsoft Remote Desktop – Get it from the Mac App Store.
+Download Microsoft Remote Desktop – Get it from the App Store.
 
-Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, enter the PC’s IP address, and save.
+Set Up the Connection on Mac – Open Microsoft Remote Desktop, click Add PC, enter the VM’s public IP address, and save.
 
-Connect – Select the PC in the app, enter Windows login credentials, and start the session.
+Connect – Select the VM in the app, enter login credentials, and start the session.
 
 
 <h4>For Windows:</h4>
@@ -82,6 +79,17 @@ Simply press your windows key and type in "Remote Desktop Connection".
 Find your VM public IP Address and enter it into the RDC program to find your VM.
 
 Use your windows Log in credentials to log in.
+
+![image](https://github.com/user-attachments/assets/2d8bdcfd-7916-44ff-8f3e-c583422abd5c)
+
+|
+
+![image](https://github.com/user-attachments/assets/3bb3a6f8-535e-4c39-ac77-02b8d987576d)
+
+|
+
+![image](https://github.com/user-attachments/assets/2aecf5ad-958c-4e7a-afc3-8a37ee55ee3e)
+
 
 
 </p>
