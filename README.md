@@ -20,11 +20,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>What We Will Do</h2>
+<h2>Opbjectives</h2>
 
 - Create Virtual Machine Using Asure
 - Launch Virtual Machine using Remote Desktop (Mac/Windows)
-- Download required files on Virtual Machine
+- Download required files on Virtual Machine for osTicket
 - Set up osTicket
 
 <h2>Installation Steps</h2>
