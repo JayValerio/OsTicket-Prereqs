@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> Standard D2als v6 (2 vcpus, 4 GiB memory)
 
 <h2>Objectives</h2>
 
