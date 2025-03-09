@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>Opbjectives</h2>
+<h2>Objectives</h2>
 
 - Create Virtual Machine Using Asure
 - Launch Virtual Machine using Remote Desktop (Mac/Windows)
