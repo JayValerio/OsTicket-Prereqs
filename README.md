@@ -281,7 +281,7 @@ Create a database called “osTicket”
 ![image](https://github.com/user-attachments/assets/9a2f0939-20ee-4838-9136-886618fc90a2)
 
 
-<p><h3>User</h3></p>
+<p><h3>Users</h3></p>
 
 ![image](https://github.com/user-attachments/assets/107233bb-cdee-42d1-abb9-448da3dc0714)
 
