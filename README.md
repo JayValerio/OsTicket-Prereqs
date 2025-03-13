@@ -233,7 +233,8 @@ Default email (receives email from customers)
 </p>
 
 
-![image](https://github.com/user-attachments/assets/fc35f09e-5c93-4bb7-8b8f-6cd88f928b39)
+![image](https://github.com/user-attachments/assets/63fd3c9b-bc12-4761-b7d2-a9fae441c311)
+
 
 <p>
   <p>From the “osTicket-Installation-Files” folder, install HeidiSQL.</p>
